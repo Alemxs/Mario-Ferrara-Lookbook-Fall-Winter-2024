@@ -10,6 +10,7 @@ body {
     background-color: #F0F0F0; /* Bianco sporco */
     color: #333;
     scroll-behavior: smooth;
+    overflow-x: hidden; /* Evita lo scorrimento orizzontale */
 }
 
 /* HEADER */
@@ -58,6 +59,7 @@ header {
     padding-top: 100px;
     background-color: #F5F5F5; /* Bianco sporco */
     min-height: calc(100vh - 100px); /* Adatta l'altezza sottraendo il footer */
+    overflow: hidden; /* Evita lo scorrimento orizzontale */
 }
 
 /* Contenitore del Flipbook */
@@ -306,7 +308,7 @@ footer {
 
     .flipbook {
         width: 95vw;
-        height: 57vw;
+        height: 60vw;
     }
 
     .hard h2{
@@ -360,8 +362,8 @@ footer {
     }
 
     .flipbook {
-        width: 90vw;
-        height: 54vw;
+        width: 95vw;
+        height: 60vw;
     }
 
     /* Riduzione della dimensione h2 */
